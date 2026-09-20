@@ -1,0 +1,52 @@
+{
+  "url": "http://localhost:3217/before",
+  "label": "before",
+  "fetchedAt": "2026-09-18T10:25:44.982Z",
+  "lighthouseVersion": "13.4.1",
+  "runs": 5,
+  "performanceScoresAllRuns": [
+    45,
+    62,
+    72,
+    74,
+    75
+  ],
+  "scores": {
+    "performance": 72,
+    "accessibility": 74,
+    "best-practices": 96,
+    "seo": 83
+  },
+  "metrics": {
+    "lcpMs": 22812,
+    "cls": 0,
+    "tbtMs_labProxyForInp": 162,
+    "fcpMs": 1549,
+    "totalBytes": 4410511
+  },
+  "axeViolations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": 12
+    },
+    {
+      "id": "html-has-lang",
+      "impact": "serious",
+      "nodes": 1
+    },
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "nodes": 3
+    }
+  ],
+  "failingAudits": [
+    "errors-in-console",
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "landmark-one-main",
+    "meta-description"
+  ]
+}

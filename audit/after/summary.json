@@ -1,0 +1,29 @@
+{
+  "url": "http://localhost:3217/",
+  "label": "after",
+  "fetchedAt": "2026-09-18T10:39:22.391Z",
+  "lighthouseVersion": "13.4.1",
+  "runs": 5,
+  "performanceScoresAllRuns": [
+    64,
+    64,
+    70,
+    80,
+    82
+  ],
+  "scores": {
+    "performance": 70,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "lcpMs": 4217,
+    "cls": 0,
+    "tbtMs_labProxyForInp": 563,
+    "fcpMs": 1992,
+    "totalBytes": 478089
+  },
+  "axeViolations": [],
+  "failingAudits": []
+}
